@@ -127,20 +127,29 @@
         }
     </style>
     <script>
+        function hideAllDetails() {
+            document.querySelectorAll('.job-details, .skills-details, .languages-details').forEach(details => {
+                details.style.display = 'none';
+            });
+        }
+
         function showSection(id) {
-            const section = document.getElementById(id);
-            section.style.display = section.style.display === 'none' || section.style.display === '' ? 'block' : 'none';
+            document.querySelectorAll('.section').forEach(section => section.style.display = 'none');
+            document.getElementById(id).style.display = 'block';
+            hideAllDetails();
         }
         
         function toggleDetails(detailsId) {
+            hideAllDetails();
             const detailsElement = document.getElementById(detailsId);
             detailsElement.style.display = detailsElement.style.display === 'none' || detailsElement.style.display === '' ? 'block' : 'none';
         }
         
         function showJobDetails(jobTitle, jobDetails, detailsId) {
+            hideAllDetails();
             const jobDetailsElement = document.getElementById(detailsId);
             jobDetailsElement.innerHTML = `<h2>${jobTitle}</h2><p>${jobDetails}</p>`;
-            toggleDetails(detailsId);
+            jobDetailsElement.style.display = 'block';
         }
     </script>
 </head>

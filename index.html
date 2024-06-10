@@ -1,7 +1,283 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👾 Dina Sharipova</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --highlight-color: #47f5ac;
+        }
+        body {
+            font-family: 'Press Start 2P', cursive;
+            margin: 0;
+            padding: 0;
+            background: #1e1e1e;
+            color: #fff;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: var(--highlight-color);
+        }
+        .header p {
+            font-size: 1.2em;
+            color: #bbb;
+        }
+        .section {
+            margin: 30px 0;
+            display: none;
+        }
+        .section h2 {
+            font-size: 1.5em;
+            color: var(--highlight-color);
+            padding-bottom: 10px;
+        }
+        .section p {
+            font-size: 1em;
+            color: #ddd;
+            line-height: 1.6;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .contact-info div {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+        }
+        .contact-info a {
+            color: var(--highlight-color);
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .icons {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .icon {
+            cursor: pointer;
+            width: 100px;
+            height: 100px;
+            background: #2e2e2e;
+            border: 2px solid var(--highlight-color);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s;
+            font-size: 3em;
+            text-align: center;
+        }
+        .icon:hover {
+            transform: scale(1.1);
+        }
+        .inventory {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .item {
+            width: 150px;
+            height: 150px;
+            background: #2e2e2e;
+            border: 2px solid var(--highlight-color);
+            border-radius: 10px;
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.3s;
+            cursor: pointer;
+            font-size: 0.8em;
+        }
+        .item:hover {
+            transform: scale(1.1);
+        }
+        .skills-item, .languages-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .job-details, .skills-details, .languages-details {
+            display: none;
+            background: #2e2e2e;
+            border: 2px solid var(--highlight-color);
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            text-align: left;
+        }
+    </style>
+    <script>
+        function showSection(id) {
+            const section = document.getElementById(id);
+            section.style.display = section.style.display === 'none' || section.style.display === '' ? 'block' : 'none';
+        }
+        
+        function toggleDetails(detailsId) {
+            const detailsElement = document.getElementById(detailsId);
+            detailsElement.style.display = detailsElement.style.display === 'none' || detailsElement.style.display === '' ? 'block' : 'none';
+        }
+        
+        function showJobDetails(jobTitle, jobDetails, detailsId) {
+            const jobDetailsElement = document.getElementById(detailsId);
+            jobDetailsElement.innerHTML = `<h2>${jobTitle}</h2><p>${jobDetails}</p>`;
+            toggleDetails(detailsId);
+        }
+    </script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>👾 Dina Sharipova</h1>
+            <p>Game Developer | Unreal Engine</p>
+            <p>Tbilisi, Georgia</p>
+        </div>
+        
+        <!-- Icon Navigation Section -->
+        <div class="icons">
+            <div class="icon" onclick="showSection('about')">
+                👩‍💻
+            </div>
+            <div class="icon" onclick="showSection('contact')">
+                📫
+            </div>
+            <div class="icon" onclick="showSection('experience')">
+                💼
+            </div>
+            <div class="icon" onclick="showSection('education')">
+                🎓
+            </div>
+            <div class="icon" onclick="showSection('skills')">
+                🛠️
+            </div>
+            <div class="icon" onclick="showSection('languages')">
+                🌐
+            </div>
+        </div>
+        
+        <!-- About Section -->
+        <div class="section" id="about">
+            <h2>👩‍💻 About Me</h2>
+            <p>Hi, I’m Dina and I’m currently part of a team developing a Multiplayer PvE Roguelite Shooter, focusing primarily on enemies & bosses.</p>
+        </div>
+        
+        <!-- Contact Information Section -->
+        <div class="section" id="contact">
+            <h2>📫 Contact Information</h2>
+            <p>Email: <a href="mailto:sharipovadinag@gmail.com" style="color: var(--highlight-color);">sharipovadinag@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/sharidi" target="_blank" style="color: var(--highlight-color);">linkedin.com/in/sharidi</a></p>
+            <p>GitHub: <a href="https://github.com/sha-ridi" target="_blank" style="color: var(--highlight-color);">github.com/sha-ridi</a></p>
+        </div>
+        
+        <!-- Work Experience Section -->
+        <div class="section" id="experience">
+            <h2>💼 Work Experience</h2>
+            <div class="inventory">
+                <div class="item" onclick="showJobDetails('Magic Hazard — Game Developer', 'Part of a team developing a Multiplayer PvE Roguelite Shooter, focusing primarily on Enemies and Bosses (AI, Spawn System, Appearance).', 'job-details-magic-dev')">
+                    <h3>Magic Hazard</h3>
+                    <p>Game Developer</p>
+                    <p>Nov 2023 - Present</p>
+                </div>
+                <div class="item" onclick="showJobDetails('Magic Hazard — QA Engineer', 'Conducting game testing to identify bugs and issues. Documenting and reporting bugs with detailed reproduction steps. Collaborating with developers and designers to verify feature functionality. Performing regression testing to confirm fixes and prevent new issues.', 'job-details-magic-qa')">
+                    <h3>Magic Hazard</h3>
+                    <p>QA Engineer</p>
+                    <p>Aug 2022 - Nov 2023</p>
+                </div>
+                <div class="item" onclick="showJobDetails('Dell EMC — Software QA Engineer', 'Support in a working state of 1500 autotests. Personally completed more than 300 tests automation from zero. Manual testing of the new features (Replication, Migration), writing test cases. Jenkins Build Server support and improvement, testing tools upgrade (Python 3.6.8 -> 3.9.6, Robot Framework 3.0.1 -> 4.1, after upgrade fixes in code). Set up Jenkins and Qtest integration.', 'job-details-dell')">
+                    <h3>Dell EMC</h3>
+                    <p>Software QA Engineer</p>
+                    <p>Feb 2020 - Aug 2022</p>
+                </div>
+                <div class="item" onclick="showJobDetails('Saint Petersburg State University — Software Engineer', 'Mainframe systems programming. C++, Linux, Bash, virtual memory, multithreading, the structure of computer networks and the z/OS, basics of HLASM. Developed an add-on for Hercules that allows you to connect an emulator of a device that executes commands to the Mainframe emulator.', 'job-details-spbu')">
+                    <h3>SPbU</h3>
+                    <p>Software Engineer</p>
+                    <p>Mar 2019 - Feb 2020</p>
+                </div>
+            </div>
+            <div id="job-details-magic-dev" class="job-details"></div>
+            <div id="job-details-magic-qa" class="job-details"></div>
+            <div id="job-details-dell" class="job-details"></div>
+            <div id="job-details-spbu" class="job-details"></div>
+        </div>
+        
+        <!-- Education Section -->
+        <div class="section" id="education">
+            <h2>🎓 Education</h2>
+            <p><strong></strong><a href="https://english.spbu.ru/" style="color: var(--highlight-color);">Saint Petersburg State University</a> — Bachelor's degree, Software and Administration of Information Systems (September 2017 - May 2021)</p>
+        </div>
+        
+        <!-- Skills Section -->
+        <div class="section" id="skills">
+            <h2>🛠️ Skills</h2>
+            <div class="inventory">
+                <div class="item skills-item" onclick="toggleDetails('skills-details-ue4')">
+                    <p>Unreal Engine 4</p>
+                </div>
+                <div class="item skills-item" onclick="toggleDetails('skills-details-ue5')">
+                    <p>Unreal Engine 5</p>
+                </div>
+                <div class="item skills-item" onclick="toggleDetails('skills-details-cpp')">
+                    <p>C++</p>
+                </div>
+            </div>
+            <div id="skills-details-ue4" class="skills-details">
+                <p>Experience with Unreal Engine 4, including Blueprints and C++ for game development.</p>
+            </div>
+            <div id="skills-details-ue5" class="skills-details">
+                <p>Experience with Unreal Engine 5, focusing on the latest features and improvements.</p>
+            </div>
+            <div id="skills-details-cpp" class="skills-details">
+                <p>Proficient in C++ programming, with experience in developing game mechanics and systems.</p>
+            </div>
+        </div>
+        
+        <!-- Languages Section -->
+        <div class="section" id="languages">
+            <h2>🌐 Languages</h2>
+            <div class="inventory">
+                <div class="item languages-item" onclick="toggleDetails('languages-details-english')">
+                    <p style="font-weight: bold; font-size: larger;">English</p>
+                    <p>B2</p>
+                </div>
+                <div class="item languages-item" onclick="toggleDetails('languages-details-russian')">
+                    <p style="font-weight: bold; font-size: larger;">Russian</p>
+                    <p>Bilingual</p>
+                </div>
+                <div class="item languages-item" onclick="toggleDetails('languages-details-tatar')">
+                    <p style="font-weight: bold; font-size: larger;">Tatar</p>
+                    <p>Bilingual</p>
+                </div>
+            </div>
+            <div id="languages-details-english" class="languages-details">
+                <p>Proficient in English, with a B2 level of proficiency.</p>
+            </div>
+            <div id="languages-details-russian" class="languages-details">
+                <p>Native or Bilingual proficiency in Russian.</p>
+            </div>
+            <div id="languages-details-tatar" class="languages-details">
+                <p>Native or Bilingual proficiency in Tatar.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

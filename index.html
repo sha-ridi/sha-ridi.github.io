@@ -127,6 +127,12 @@
         }
     </style>
     <script>
+        function hideAllSections() {
+            document.querySelectorAll('.section').forEach(section => {
+                section.style.display = 'none';
+            });
+        }
+
         function hideAllDetails() {
             document.querySelectorAll('.job-details, .skills-details, .languages-details').forEach(details => {
                 details.style.display = 'none';
@@ -134,22 +140,35 @@
         }
 
         function showSection(id) {
-            document.querySelectorAll('.section').forEach(section => section.style.display = 'none');
-            document.getElementById(id).style.display = 'block';
+            const section = document.getElementById(id);
+            if (section.style.display === 'block') {
+                section.style.display = 'none';
+            } else {
+                hideAllSections();
+                section.style.display = 'block';
+            }
             hideAllDetails();
         }
         
         function toggleDetails(detailsId) {
-            hideAllDetails();
             const detailsElement = document.getElementById(detailsId);
-            detailsElement.style.display = detailsElement.style.display === 'none' || detailsElement.style.display === '' ? 'block' : 'none';
+            if (detailsElement.style.display === 'block') {
+                detailsElement.style.display = 'none';
+            } else {
+                hideAllDetails();
+                detailsElement.style.display = 'block';
+            }
         }
         
         function showJobDetails(jobTitle, jobDetails, detailsId) {
-            hideAllDetails();
             const jobDetailsElement = document.getElementById(detailsId);
-            jobDetailsElement.innerHTML = `<h2>${jobTitle}</h2><p>${jobDetails}</p>`;
-            jobDetailsElement.style.display = 'block';
+            if (jobDetailsElement.style.display === 'block') {
+                jobDetailsElement.style.display = 'none';
+            } else {
+                hideAllDetails();
+                jobDetailsElement.innerHTML = `<h2>${jobTitle}</h2><p>${jobDetails}</p>`;
+                jobDetailsElement.style.display = 'block';
+            }
         }
     </script>
 </head>
@@ -232,7 +251,7 @@
         <!-- Education Section -->
         <div class="section" id="education">
             <h2>🎓 Education</h2>
-            <p><strong></strong><a href="https://english.spbu.ru/" style="color: var(--highlight-color);">Saint Petersburg State University</a> — Bachelor's degree, Software and Administration of Information Systems (September 2017 - May 2021)</p>
+            <p><strong></strong><a href="https://english.spbu.ru/" target="_blank" style="color: var(--highlight-color);">Saint Petersburg State University</a> — Bachelor's degree, Software and Administration of Information Systems (September 2017 - May 2021)</p>
         </div>
         
         <!-- Skills Section -->

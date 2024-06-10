@@ -125,6 +125,33 @@
             margin-top: 20px;
             text-align: left;
         }
+        @media (max-width: 600px) {
+        body {
+            font-size: 0.8em; 
+        }
+        .header h1 {
+            font-size: 1.8em; 
+        }
+        .header p {
+            font-size: 1em; 
+        }
+        .icon {
+            width: 80px; 
+            height: 80px; 
+            font-size: 2em; 
+        }
+        .item {
+            width: 120px; 
+            height: 120px; 
+            font-size: 0.7em; 
+        }
+        .section h2 {
+            font-size: 1.2em; 
+        }
+        .section p {
+            font-size: 0.9em; 
+        }
+    }
     </style>
     <script>
         function hideAllSections() {
@@ -186,20 +213,20 @@
             <div class="icon" onclick="showSection('about')">
                 👩‍💻
             </div>
-            <div class="icon" onclick="showSection('contact')">
-                📫
+            <div class="icon" onclick="showSection('education')">
+                🎓
             </div>
             <div class="icon" onclick="showSection('experience')">
                 💼
             </div>
-            <div class="icon" onclick="showSection('education')">
-                🎓
-            </div>
-            <div class="icon" onclick="showSection('skills')">
-                🛠️
+            <div class="icon" onclick="showSection('contact')">
+                📫
             </div>
             <div class="icon" onclick="showSection('languages')">
                 🌐
+            </div>
+            <div class="icon" onclick="showSection('skills')">
+                🛠️
             </div>
         </div>
         

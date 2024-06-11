@@ -36,7 +36,7 @@
             font-size: 1.2em;
             color: #bbb;
         }
-        .section {
+        .section, .media-details {
             margin: 30px 0;
             display: none;
         }
@@ -71,15 +71,10 @@
             display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 15px;
         }
         .icon {
             cursor: pointer;
-            width: 100px;
-            height: 100px;
-            background: #2e2e2e;
-            border: 2px solid var(--highlight-color);
-            border-radius: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -111,11 +106,14 @@
         .item:hover {
             transform: scale(1.1);
         }
-        .skills-item, .languages-item {
+        .skills-item, .languages-item, .media-item {
+            width: auto;
+            height: auto;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            padding: 10px 25px;
         }
         .job-details, .skills-details, .languages-details {
             display: none;
@@ -131,26 +129,32 @@
             font-size: 0.7em; 
         }
         .header h1 {
-            font-size: 1.6em; 
+            font-size: 2em; 
         }
         .header p {
             font-size: 0.8em; 
         }
+        .icons {
+            gap: 5px;
+        }
         .icon {
-            width: 60px; 
-            height: 60px; 
-            font-size: 1.5em; 
+            font-size: 2em; 
         }
         .item {
-            width: 120px; 
-            height: 120px; 
-            font-size: 0.7em; 
+            width: auto; 
+            height: auto; 
+            font-size: 0.7em;
+            padding: 0px 10px; 
         }
         .section h2 {
             font-size: 1.2em; 
         }
         .section p {
-            font-size: 0.9em; 
+            font-size: 0.7em; 
+        }
+        .media-details iframe {
+        width: 100%;
+        height: 100%;
         }
     }
     </style>
@@ -162,7 +166,7 @@
         }
 
         function hideAllDetails() {
-            document.querySelectorAll('.job-details, .skills-details, .languages-details').forEach(details => {
+            document.querySelectorAll('.job-details, .skills-details, .languages-details, .media-details').forEach(details => {
                 details.style.display = 'none';
             });
         }
@@ -222,6 +226,9 @@
             </div>
             <div class="icon" onclick="showSection('education')">
                 🎓
+            </div>
+            <div class="icon" onclick="showSection('media')">
+                📹
             </div>
             <div class="icon" onclick="showSection('languages')">
                 🌐
@@ -336,6 +343,25 @@
                 <p>I use it mainly to communicate with my family. I am Tatar by nationality and I lived in Tatarstan and studied in my native language at school. </p>
             </div>
         </div>
+
+         <!-- Media Section -->
+         <div class="section" id="media">
+            <h2>📹 Media Appearances</h2>
+            <div class="inventory">
+                <div class="item media-item" onclick="toggleDetails('media-details-video')">
+                <p>Video: Inside Dell Technologies</p>
+                </div>
+                <div class="item media-item" onclick="toggleDetails('media-details-post')">
+                    <p>Company Group Post</p>
+                </div>
+            </div>
+            <div id="media-details-video" class="media-details">
+                <iframe src="https://vk.com/video_ext.php?oid=-41603819&id=456239108&hash=c3f1e440e6d6dafd" width="480" height="270" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
+            <div id="media-details-post" class="media-details">
+                <p>Link: <a href="https://vk.com/delltechcareers?w=wall-41603819_2469" target="_blank" style="color: var(--highlight-color);">My Journey at Dell Technologies</a></p>
+            </div>
+        </div>       
     </div>
 </body>
 </html>

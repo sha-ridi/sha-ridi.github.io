@@ -124,6 +124,9 @@
             margin-top: 20px;
             text-align: left;
         }
+        html {
+            scroll-behavior: smooth;
+        }
         @media (max-width: 600px) {
         body {
             font-size: 0.7em; 
@@ -165,13 +168,22 @@
             });
         }
 
+        function scrollToElement(element, offset = -250) {
+            const elementPosition = element.getBoundingClientRect().top + window.pageYOffset + offset;
+            window.scrollTo({
+                top: elementPosition,
+                behavior: 'smooth'
+            });
+        }
         function showSection(id) {
             const section = document.getElementById(id);
             if (section.style.display === 'block') {
                 section.style.display = 'none';
+                window.scrollTo({ top: 0, behavior: 'smooth' });
             } else {
                 hideAllSections();
                 section.style.display = 'block';
+                scrollToElement(section); 
             }
             hideAllDetails();
         }
@@ -180,9 +192,11 @@
             const detailsElement = document.getElementById(detailsId);
             if (detailsElement.style.display === 'block') {
                 detailsElement.style.display = 'none';
+                window.scrollTo({ top: 100, behavior: 'smooth' });
             } else {
                 hideAllDetails();
                 detailsElement.style.display = 'block';
+                scrollToElement(detailsElement); 
             }
         }
         
@@ -190,10 +204,12 @@
             const jobDetailsElement = document.getElementById(detailsId);
             if (jobDetailsElement.style.display === 'block') {
                 jobDetailsElement.style.display = 'none';
+                window.scrollTo({ top: 100, behavior: 'smooth' });
             } else {
                 hideAllDetails();
                 jobDetailsElement.innerHTML = `<h2>${jobTitle}</h2><p>${jobDetails}</p>`;
                 jobDetailsElement.style.display = 'block';
+                scrollToElement(jobDetailsElement); 
             }
         }
     </script>

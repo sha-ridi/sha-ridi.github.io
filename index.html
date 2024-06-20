@@ -111,6 +111,13 @@
         .item:hover {
             transform: scale(1.1);
         }
+        .icon, .item {
+            transition: transform 0.5s;
+        }
+
+            .icon.hover, .item.hover {
+            transform: scale(1.1);
+        }
         .skills-item, .languages-item, .media-item {
             width: auto;
             height: auto;
@@ -220,6 +227,38 @@
                 scrollToElement(jobDetailsElement); 
             }
         }
+        function hoverAnimation(element) {
+            element.classList.add('hover');
+            setTimeout(() => {
+                element.classList.remove('hover');
+            }, 500); 
+        }
+
+        function playHoverAnimations(elements) {
+            elements.forEach((element, index) => {
+                setTimeout(() => {
+                    hoverAnimation(element);
+                }, index * 150); 
+            });
+        }
+
+        function showSection(id) {
+            const section = document.getElementById(id);
+            if (section.style.display === 'block') {
+                section.style.display = 'none';
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            } else {
+                hideAllSections();
+                section.style.display = 'block';
+                scrollToElement(section); 
+                playHoverAnimations(section.querySelectorAll('.item'));
+            }
+            hideAllDetails();
+        }
+
+        window.addEventListener('load', () => {
+            playHoverAnimations(document.querySelectorAll('.icon, .item'));
+        });
     </script>
 </head>
 <body>

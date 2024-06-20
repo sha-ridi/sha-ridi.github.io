@@ -231,15 +231,19 @@
             element.classList.add('hover');
             setTimeout(() => {
                 element.classList.remove('hover');
-            }, 500); 
+                setTimeout(() => {
+                    element.classList.add('hover');
+                    setTimeout(() => {
+                        element.classList.remove('hover');
+                    }, 200); 
+                }, 200); 
+            }, 200); 
         }
 
-        function playHoverAnimations(elements) {
-            elements.forEach((element, index) => {
-                setTimeout(() => {
-                    hoverAnimation(element);
-                }, index * 150); 
-            });
+        function playHoverAnimation(element) {
+            if (element) {
+                hoverAnimation(element);
+            }
         }
 
         function showSection(id) {
@@ -251,13 +255,13 @@
                 hideAllSections();
                 section.style.display = 'block';
                 scrollToElement(section); 
-                playHoverAnimations(section.querySelectorAll('.item'));
+                playHoverAnimation(section.querySelector('.item'));
             }
             hideAllDetails();
         }
 
         window.addEventListener('load', () => {
-            playHoverAnimations(document.querySelectorAll('.icon, .item'));
+            playHoverAnimation(document.querySelector('.icon, .item'));
         });
     </script>
 </head>

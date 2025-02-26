@@ -1,195 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dina Sharipova</title>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/png" href="alien.png">
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <title>Dina Sharipova</title>
+
+  <link rel="icon" type="image/png" href="alien.png">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">  
+
 </head>
 <body>
-    <div class="container">
-        <!-- Header Section -->
-        <div class="header">
-            <h1>👾 Dina Sharipova</h1>
-            <p>Game Developer</p>
-            <p>Unreal Engine</p>
-            <small><a href="Sharipova_Dina_CV.pdf" target="_blank" style="font-size: 12px; color: #33a072;">Download CV</a></small>
-            <br>
-            <small>or... take the fun route and click on the emojis below</small>
-        </div>
-        
-        <!-- Icon Navigation Section -->
-        <div class="icons">
-            <div class="icon" onclick="showSection('about')">
-                👩‍💻
-            </div>
-            <div class="icon" onclick="showSection('contact')">
-                📫
-            </div>
-            <div class="icon" onclick="showSection('experience')">
-                💼
-            </div>
-            <div class="icon" onclick="showSection('education')">
-                🎓
-            </div>
-            <div class="icon" onclick="showSection('media')">
-                📹
-            </div>
-            <div class="icon" onclick="showSection('languages')">
-                🌐
-            </div>
-            <div class="icon" onclick="showSection('skills')">
-                🛠️
-            </div>
-        </div>
-        
-        <!-- About Section -->
-        <div class="section" id="about">
-            <h2>👩‍💻 About Me</h2>
-            <p>Hi, I’m Dina and I’m currently part of a team developing a Multiplayer PvE Roguelite Shooter, focusing primarily on enemies & bosses.</p>
-        </div>
-        
-        <!-- Contact Information Section -->
-        <div class="section" id="contact">
-            <h2>📫 Contact Information</h2>
-            <p>Email: <a href="mailto:sharipovadinag@gmail.com" style="color: var(--highlight-color);">sharipovadinag@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/sharidi" target="_blank" style="color: var(--highlight-color);">linkedin.com/in/sharidi</a></p>
-            <p>GitHub: <a href="https://github.com/sha-ridi" target="_blank" style="color: var(--highlight-color);">github.com/sha-ridi</a></p>
-            <p>Discord: <a href="https://discordapp.com/users/dina4970" target="_blank" style="color: var(--highlight-color);">dina4970</a></p>
-            <p>Telegram: <a href="https://t.me/sha_ridi" target="_blank" style="color: var(--highlight-color);">sha_ridi</a></p>
-        </div>
-        
-        <!-- Work Experience Section -->
-        <div class="section" id="experience">
-            <h2>💼 Work Experience</h2>
-            <div class="inventory">
-                <div class="item" onclick="showJobDetails('Magic Hazard — Game Developer', 'Designing and implementing AI systems. Developing and optimizing Enemy Spawn System. Creating Game Modes. Integrating animations, sound effects, and visual effects in Multiplayer.', 'job-details-magic-dev')">
-                    <h3>Magic Hazard</h3>
-                    <p>Game Developer</p>
-                    <p>Nov 2023 - Present</p>
-                </div>
-                <div class="item" onclick="showJobDetails('Magic Hazard — QA Engineer', 'Check out our game on Steam: <a href=\'https://store.steampowered.com/app/1483190/Memory_Lost/\' target=\'_blank\' style=\'color: var(--highlight-color);\'>Memory Lost</a>, <a href=\'https://store.steampowered.com/app/2129490/Memory_Lost_Chapter_One/\' target=\'_blank\' style=\'color: var(--highlight-color);\'>Memory Lost: Chapter One</a> <br><br>Conducting game testing to identify bugs and issues. Documenting and reporting bugs with detailed reproduction steps. Collaborating with developers and designers to verify feature functionality. Performing regression testing to confirm fixes and prevent new issues. ', 'job-details-magic-qa')">
-                    <h3>Magic Hazard</h3>
-                    <p>QA Engineer</p>
-                    <p>Aug 2022 - Nov 2023</p>
-                </div>
-                <div class="item" onclick="showJobDetails('Dell EMC — Software QA Engineer', 'Support in a working state of 1500 autotests. Personally completed more than 300 tests automation from zero. Manual testing of the new features (Replication, Migration), writing test cases. Jenkins Build Server support and improvement, testing tools upgrade (Python 3.6.8 -> 3.9.6, Robot Framework 3.0.1 -> 4.1, after upgrade fixes in code). Set up Jenkins and Qtest integration.', 'job-details-dell')">
-                    <h3>Dell EMC</h3>
-                    <p>Software QA Engineer</p>
-                    <p>Feb 2020 - Aug 2022</p>
-                </div>
-                <div class="item" onclick="showJobDetails('Saint Petersburg State University — Software Engineer', 'Mainframe systems programming. C++, Linux, Bash, virtual memory, multithreading, the structure of computer networks and the z/OS, basics of HLASM. Developed an add-on for Hercules that allows you to connect an emulator of a device that executes commands to the Mainframe emulator.', 'job-details-spbu')">
-                    <h3>SPbU</h3>
-                    <p>Software Engineer</p>
-                    <p>Mar 2019 - Feb 2020</p>
-                </div>
-            </div>
-            <div id="job-details-magic-dev" class="job-details"></div>
-            <div id="job-details-magic-qa" class="job-details"></div>
-            <div id="job-details-dell" class="job-details"></div>
-            <div id="job-details-spbu" class="job-details"></div>
-        </div>
-        
-        <!-- Education Section -->
-        <div class="section" id="education">
-            <h2>🎓 Education</h2>
-            <p><strong></strong><a href="https://english.spbu.ru/" target="_blank" style="color: var(--highlight-color);">Saint Petersburg State University</a> — Bachelor's degree, Software and Administration of Information Systems (September 2017 - May 2021)</p>
-        </div>
-        
-        <!-- Skills Section -->
-        <div class="section" id="skills">
-            <h2>🛠️ Skills</h2>
-            <div class="inventory">
-                <div class="item skills-item" onclick="toggleDetails('skills-details-ue4')">
-                    <p>Unreal Engine 4</p>
-                </div>
-                <div class="item skills-item" onclick="toggleDetails('skills-details-ue5')">
-                    <p>Unreal Engine 5</p>
-                </div>
-                <div class="item skills-item" onclick="toggleDetails('skills-details-cpp')">
-                    <p>C++</p>
-                </div>
-                <div class="item skills-item" onclick="toggleDetails('skills-details-git')">
-                    <p>Git & GitHub</p>
-                </div>
-                <div class="item skills-item" onclick="toggleDetails('skills-details-html')">
-                    <p>HTML & CSS & JavaScript</p>
-                </div>
-                <div class="item skills-item" onclick="toggleDetails('skills-details-gamemaker')">
-                    <p>Game Maker Studio</p>
-                </div>
-            </div>
-            <div id="skills-details-ue4" class="skills-details">
-                <p>My intro to Unreal started with UE4, but not through programming. I was more involved in testing and making minor adjustments to the game. </p>
-            </div>
-            <div id="skills-details-ue5" class="skills-details">
-                <p>Here I started writing code and making blueprints. I touched PCG a little bit, but mostly I do everything that could be done in UE4.</p>
-            </div>
-            <div id="skills-details-cpp" class="skills-details">
-                <p>I studied C++ from the fundamental basics at uni (I may not remember all the intricacies now, but I have a general understanding). Currently, I write more in the context of the Unreal Engine.</p>
-            </div>
-            <div id="skills-details-git" class="skills-details">
-                <p>Used the corporate GitHub a lot at past jobs. Now I've started <a href="https://github.com/sha-ridi" target="_blank" style="color: var(--highlight-color);">my own</a>. Personally, I prefer using GitHub Desktop over Git Bash because it's more convenient and looks nicer.</p>
-            </div>
-            <div id="skills-details-html" class="skills-details">
-                <p>Built this very website using HTML, CSS, and JavaScript. Pretty neat, right?</p>
-            </div>
-            <div id="skills-details-gamemaker" class="skills-details">
-                <p>When I was 13-15, I made games in Game Maker Studio as gifts for my friends on their birthdays. I had a blast using our faces as sprites for players and enemies. Check out what I created back then at your own risk <a href="https://disk.yandex.com/d/j7w2b9ca34Hrud" target="_blank" style="color: var(--highlight-color);">here</a>!</p>
-            </div>
-            
-        </div>
-        
-        <!-- Languages Section -->
-        <div class="section" id="languages">
-            <h2>🌐 Languages</h2>
-            <div class="inventory">
-                <div class="item languages-item" onclick="toggleDetails('languages-details-english')">
-                    <p style="font-weight: bold; font-size: larger;">English</p>
-                    <p>B2</p>
-                </div>
-                <div class="item languages-item" onclick="toggleDetails('languages-details-russian')">
-                    <p style="font-weight: bold; font-size: larger;">Russian</p>
-                    <p>Bilingual</p>
-                </div>
-                <div class="item languages-item" onclick="toggleDetails('languages-details-tatar')">
-                    <p style="font-weight: bold; font-size: larger;">Tatar</p>
-                    <p>Bilingual</p>
-                </div>
-            </div>
-            <div id="languages-details-english" class="languages-details">
-                <p>I use it more to watch youtube (tiktok), take courses and google search. Sometimes we have English days at home.</p>
-            </div>
-            <div id="languages-details-russian" class="languages-details">
-                <p>I was born and lived in Russia. So I consume a lot of content and communicate a lot too.</p>
-            </div>
-            <div id="languages-details-tatar" class="languages-details">
-                <p>I use it mainly to communicate with my family. I am Tatar by nationality and I lived in Tatarstan and studied in my native language at school. </p>
-            </div>
-        </div>
 
-         <!-- Media Section -->
-         <div class="section" id="media">
-            <h2>📹 Media Appearances</h2>
-            <div class="inventory">
-                <div class="item media-item" onclick="toggleDetails('media-details-video')">
-                <p>Video: Inside Dell Technologies</p>
-                </div>
-                <div class="item media-item" onclick="toggleDetails('media-details-post')">
-                    <p>Company Group Post</p>
-                </div>
-            </div>
-            <div id="media-details-video" class="media-details">
-                <iframe src="https://vk.com/video_ext.php?oid=-41603819&id=456239108&hash=c3f1e440e6d6dafd" width="480" height="270" frameborder="0" allowfullscreen="1" allow="autoplay; encrypted-media; fullscreen; picture-in-picture"></iframe>
-            </div>
-            <div id="media-details-post" class="media-details">
-                <p>Link: <a href="https://vk.com/delltechcareers?w=wall-41603819_2469" target="_blank" style="color: var(--highlight-color);">My Journey at Dell Technologies</a></p>
-            </div>
-        </div>       
+  <!-- Menu -->
+  <div id="main-menu" class="screen active">
+    <h1>DINA SHARIPOVA</h1>
+    <ul class="menu-list">
+      <li data-target="screen-contact">New Game</li>
+      <li data-target="screen-games">Portfolio</li>
+      <li data-target="screen-settings">Settings</li>
+      <li data-target="screen-about">About</li>
+      <li data-target="screen-exit">Exit</li>
+    </ul>
+    <div class="blinking-cursor">█</div>
+  </div>
+
+  <!-- About -->
+  <div id="screen-about" class="screen">
+    <h2>About Me</h2>
+    <p>Hi, I’m Dina and I’m interested in Game Programming using Unreal Engine 5</p>
+    <pre class="ascii-art">
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠐⠄⠄⠄⠄⠠⠄⠄⢀⣀⡈⢻⣿⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⡀⠴⢒⡒⠂⠄⢀⡀⢐⡀⡀⠄⠄⢀⠙⣿⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⡿⡡⠪⠶⢿⡭⡉⠄⢀⢣⣖⣶⣬⡱⣄⠄⠄⠄⠸⣿⣿
+⣿⣿⣿⣿⣿⣿⣿⡁⣔⣎⠓⠂⡀⠑⠖⣒⠭⠻⠿⠿⠷⠙⣎⠉⠉⠄⣿⣿
+⣿⣿⣿⣿⣿⣿⢧⢱⣿⣔⣀⠊⠐⢼⣿⣶⣠⠄⠐⡐⠶⡂⣿⣀⡀⠄⣿⣿
+⣿⣿⣿⣿⣿⣟⠂⣿⣿⣷⣶⣟⣴⣾⣿⣧⣐⣤⣤⣭⣿⠇⡇⠄⠄⠄⣿⣿
+⣿⣿⣿⣿⣿⢹⠄⣿⣿⣿⣿⡌⠿⣛⣿⣿⣿⣿⣿⣿⢫⡞⡇⠄⠄⢰⣿⣿
+⣿⣿⣿⡿⣫⠞⢀⣿⣿⣿⣥⣤⣌⠙⣿⣿⣿⣿⡟⣽⣿⠁⡇⠒⢒⣾⣿⣿
+⣿⣿⣯⣾⠋⠄⠘⣿⣿⣿⣶⣶⣭⣿⣿⣿⣿⣿⣾⡿⠃⣴⡇⠄⣼⣿⣿⣿
+⡛⣿⣿⣷⣇⠄⠄⡈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⠄⣼⡇⣼⣿⣿⣿⣿
+⠉⣥⡙⠛⠿⠇⢸⠰⠄⠄⠄⠹⠟⠛⠋⢉⣀⢩⢴⠄⢰⣿⣧⢿⣿⣿⣿⣿
+    </pre>
+    <button class="btn-back" data-target="main-menu">← Back</button>
+  </div>
+
+  <!-- games -->
+  <div id="screen-games" class="screen">
+    <h2>Games</h2>
+    <ul class="menu-list">
+      <li data-target="screen-memory-lost">Memory Lost</li>
+      <li data-target="screen-shoot-and-think">Shoot & Think</li>
+    </ul>
+    <button class="btn-back" data-target="main-menu">← Back</button>
+  </div>
+
+  <!-- Contact -->
+  <div id="screen-contact" class="screen">
+    <h2>New Game</h2>
+    <br>
+    <p> Here’s how you can reach me to create a new game</p>
+
+    <p>Email: <a href="mailto:sharipovadinag@gmail.com">sharipovadinag@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/sharidi" target="_blank">linkedin.com/in/sharidi</a></p>
+    <p>GitHub: <a href="https://github.com/sha-ridi" target="_blank">github.com/sha-ridi</a></p>
+    <button class="btn-back" data-target="main-menu">← Back</button>
+  </div>
+
+  <!-- settings -->
+  <div id="screen-settings" class="screen">
+    <h2>Settings</h2>
+    <br>
+    <!-- Строка для Volume -->
+    <div class="settings-row">
+      <div class="settings-label">Volume</div>
+      <div class="settings-control">
+        <input type="range" min="0" max="100" value="50">
+      </div>
     </div>
-    <div style="height: 800px;"></div>
+  
+    <!-- Строка для Mood -->
+    <div class="settings-row">
+      <div class="settings-label">Mood</div>
+      <div class="settings-control">
+        <input type="range" min="0" max="100" value="50">
+      </div>
+    </div>
+  
+    <!-- Строка для Music -->
+    <div class="settings-row">
+      <div class="settings-label">Music</div>
+      <div class="settings-control">
+        <button class="toggleBtn">← ON →</button>
+      </div>
+    </div>
+  
+    <!-- Строка для Sound -->
+    <div class="settings-row">
+      <div class="settings-label">Sound</div>
+      <div class="settings-control">
+        <button class="toggleBtn">← ON →</button>
+      </div>
+    </div>
+  
+    <button class="btn-back" data-target="main-menu">← Back</button>
+  </div>
+  
+
+  <!-- Exit -->
+  <div id="screen-exit" class="screen">
+    <h2>Are you sure you want to quit?</h2>
+    <br>
+    <pre class="ascii-art">
+⣿⣿⡇⠸⣿⣿⣿⣿⡄⠈⢿⣿⣿⡇⢸⣿⡀⣿⣿⡿⠸⡇⣸⣿⣿⠄⣿⣿
+⣿⡿⠷⠄⠿⠿⠿⠟⠓⠰⠘⠿⣿⣿⡈⣿⡇⢹⡟⠰⠦⠁⠈⠉⠋⠄⠻⢿
+⡑⠶⡏⠛⠐⠋⠓⠲⠶⣭⣤⣴⣦⣭⣥⣮⣾⣬⣴⡮⠝⠒⠂⠂⠘⠉⠿⠖
+⠉⠄⡀⠄⣀⣀⣀⣀⠈⢛⣿⣿⣿⣿⣿⣿⣿⣿⣟⠁⣀⣤⣤⣠⡀⠄⡀⠈
+⠠⣾⡀⣾⣿⣧⣼⣿⡿⢠⣿⣿⣿⣿⣿⣿⣿⣿⣧⣼⣿⣧⣼⣿⣿⢀⣿⡇
+⠄⠻⣷⡘⢿⣿⣿⡿⢣⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣜⢿⣿⣿⡿⢃⣾⠟⢁
+⢻⣶⣬⣿⣶⣬⣥⣶⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣷⣶⣶⣾⣿⣷⣾⣾
+⠈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
+⡐⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⢠
+⣷⡀⠈⠻⣿⣿⣿⣿⣿⣿⣿⣿⠿⠿⠿⠿⢿⣿⣿⣿⣿⣿⣿⣿⡿⠋⢀⠆
+⣿⣷⡀⠄⠈⠛⢿⣿⣿⣿⣿⣷⣶⣶⣶⣶⣶⣿⣿⣿⣿⣿⠿⠋⠠⠂⢀⣾
+    </pre>
+    <button class="btn-back" data-target="main-menu">← No, go back</button>
+  </div>
+
+    <!-- Memory Lost -->
+    <div id="screen-memory-lost" class="screen">
+      <h2>Memory Lost</h2>
+      <p>Check out our game on Steam: 
+        <a href="https://store.steampowered.com/app/2129490/Memory_Lost_Chapter_One/" target="_blank">Memory Lost: Chapter One        
+        </a>, <a href="https://store.steampowered.com/app/1483190/Memory_Lost/" target="_blank">Memory Lost</a>
+      </p>
+      <p>Here I served as the lead QA tester, discovering bugs and ensuring they were efficiently addressed.</p>
+      <button class="btn-back" data-target="screen-games">← Back</button>
+    </div>
+
+      <!-- Shoot&Think -->
+      <div id="screen-shoot-and-think" class="screen">
+        <h2>Shoot & Think</h2>
+        <p> 
+          <a href="./docs/PrivacyPolicyShoot&Think.pdf" target="_blank">Privacy Policy</a>
+        </p>
+        <button class="btn-back" data-target="screen-games">← Back</button>
+      </div>
+
+  <script src="script.js"></script>
 </body>
 </html>

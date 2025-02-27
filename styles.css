@@ -187,6 +187,27 @@ body {
         -webkit-appearance: none; 
         background: transparent;  
       }
+
+      .toggleBtn:hover {
+        color: #47f5ac;
+      }
+
+      input[type="range"]:hover::-webkit-slider-thumb {
+        background-color: #47f5ac;
+      }
+  
+      input[type="range"]:hover::-moz-range-thumb {
+        background-color: #47f5ac;
+      }
+
+      .menu-list li:hover {
+        color: #47f5ac; 
+      }
+
+      .btn-back:hover {
+        background: none;
+        color: #47f5ac;
+      }
   }
   
 

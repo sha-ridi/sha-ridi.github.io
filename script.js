@@ -39,24 +39,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const toggleButtons = document.querySelectorAll('.toggleBtn');
     toggleButtons.forEach((btn) => {
     btn.addEventListener('click', () => {
-      btn.classList.remove('hover');
       if (btn.innerText === '← ON →') {
         btn.innerText = '← OFF →';
       } else {
         btn.innerText = '← ON →';
       }
-    });
-    btn.addEventListener('touchstart', () => {
-      btn.classList.add('hover');
-    });
-    btn.addEventListener('touchend', () => {
-      btn.classList.remove('hover');
-    });
-    btn.addEventListener('touchcancel', () => {
-      btn.classList.remove('hover');
+    });   
     });
   });  
-});
 
 
 

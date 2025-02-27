@@ -45,18 +45,16 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.innerText = '← ON →';
       }
     });
-    button.addEventListener('touchstart', () => {
-      button.classList.add('hover');
+    btn.addEventListener('touchstart', () => {
+      btn.classList.add('hover');
     });
-    button.addEventListener('touchend', () => {
-      button.classList.remove('hover');
+    btn.addEventListener('touchend', () => {
+      btn.classList.remove('hover');
     });
-    button.addEventListener('touchcancel', () => {
-      button.classList.remove('hover');
+    btn.addEventListener('touchcancel', () => {
+      btn.classList.remove('hover');
     });
-  });
-
-  
+  });  
 });
 
 

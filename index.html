@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dina Sharipova</title>
 
   <link rel="icon" type="image/png" href="alien.png">
@@ -28,19 +29,6 @@
   <div id="screen-about" class="screen">
     <h2>About Me</h2>
     <p>Hi, I’m Dina and I’m interested in Game Programming using Unreal Engine 5</p>
-    <pre class="ascii-art">
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠉⠐⠄⠄⠄⠄⠠⠄⠄⢀⣀⡈⢻⣿⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⣿⣿⠋⡀⠴⢒⡒⠂⠄⢀⡀⢐⡀⡀⠄⠄⢀⠙⣿⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⡿⡡⠪⠶⢿⡭⡉⠄⢀⢣⣖⣶⣬⡱⣄⠄⠄⠄⠸⣿⣿
-⣿⣿⣿⣿⣿⣿⣿⡁⣔⣎⠓⠂⡀⠑⠖⣒⠭⠻⠿⠿⠷⠙⣎⠉⠉⠄⣿⣿
-⣿⣿⣿⣿⣿⣿⢧⢱⣿⣔⣀⠊⠐⢼⣿⣶⣠⠄⠐⡐⠶⡂⣿⣀⡀⠄⣿⣿
-⣿⣿⣿⣿⣿⣟⠂⣿⣿⣷⣶⣟⣴⣾⣿⣧⣐⣤⣤⣭⣿⠇⡇⠄⠄⠄⣿⣿
-⣿⣿⣿⣿⣿⢹⠄⣿⣿⣿⣿⡌⠿⣛⣿⣿⣿⣿⣿⣿⢫⡞⡇⠄⠄⢰⣿⣿
-⣿⣿⣿⡿⣫⠞⢀⣿⣿⣿⣥⣤⣌⠙⣿⣿⣿⣿⡟⣽⣿⠁⡇⠒⢒⣾⣿⣿
-⣿⣿⣯⣾⠋⠄⠘⣿⣿⣿⣶⣶⣭⣿⣿⣿⣿⣿⣾⡿⠃⣴⡇⠄⣼⣿⣿⣿
-⡛⣿⣿⣷⣇⠄⠄⡈⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣉⠄⣼⡇⣼⣿⣿⣿⣿
-⠉⣥⡙⠛⠿⠇⢸⠰⠄⠄⠄⠹⠟⠛⠋⢉⣀⢩⢴⠄⢰⣿⣧⢿⣿⣿⣿⣿
-    </pre>
     <button class="btn-back" data-target="main-menu">← Back</button>
   </div>
 
@@ -70,35 +58,32 @@
   <div id="screen-settings" class="screen">
     <h2>Settings</h2>
     <br>
-    <!-- Строка для Volume -->
-    <div class="settings-row">
-      <div class="settings-label">Volume</div>
-      <div class="settings-control">
-        <input type="range" min="0" max="100" value="50">
-      </div>
-    </div>
-  
-    <!-- Строка для Mood -->
+
     <div class="settings-row">
       <div class="settings-label">Mood</div>
       <div class="settings-control">
-        <input type="range" min="0" max="100" value="50">
+        <input type="range" min="0" max="100" value="80">
       </div>
     </div>
   
-    <!-- Строка для Music -->
     <div class="settings-row">
-      <div class="settings-label">Music</div>
+      <div class="settings-label">Confusion</div>
+      <div class="settings-control">
+        <input type="range" min="0" max="100" value="8">
+      </div>
+    </div>
+  
+    <div class="settings-row">
+      <div class="settings-label">Vibe</div>
       <div class="settings-control">
         <button class="toggleBtn">← ON →</button>
       </div>
     </div>
   
-    <!-- Строка для Sound -->
     <div class="settings-row">
-      <div class="settings-label">Sound</div>
+      <div class="settings-label">Anxiety</div>
       <div class="settings-control">
-        <button class="toggleBtn">← ON →</button>
+        <button class="toggleBtn">← OFF →</button>
       </div>
     </div>
   

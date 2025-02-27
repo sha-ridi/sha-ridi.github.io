@@ -95,9 +95,6 @@ body {
       color: #ffffff;
     }
 
-    .toggleBtn:active {
-      color: #ffffff;
-    }
 
     input[type="range"] {
       width: 200px;
@@ -140,14 +137,6 @@ body {
     }
 
     input[type="range"]:hover::-moz-range-thumb {
-      background-color: #ffffff;
-    }
-
-    input[type="range"]:active::-webkit-slider-thumb {
-      background-color: #ffffff;
-    }
-
-    input[type="range"]:active::-moz-range-thumb {
       background-color: #ffffff;
     }
     

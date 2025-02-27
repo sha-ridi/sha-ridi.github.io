@@ -187,9 +187,6 @@ img {
   input[type="range"] {
     width: 130px;
   }
-}
-
-@media (hover: none) and (pointer: coarse) {
 
   .toggleBtn:hover {
     color: #47f5ac;

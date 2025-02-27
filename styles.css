@@ -162,6 +162,13 @@ body {
     p {
       padding: 0;
       margin: 10px 0;
+      line-height: 1.6
+    }
+
+    img {
+      height: 30vh;
+      width: auto;
+      display: block;
     }
 
     @media (max-width: 600px) {

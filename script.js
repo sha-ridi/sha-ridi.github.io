@@ -39,6 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const toggleButtons = document.querySelectorAll('.toggleBtn');
     toggleButtons.forEach((btn) => {
     btn.addEventListener('click', () => {
+      btn.classList.remove('hover');
       if (btn.innerText === '← ON →') {
         btn.innerText = '← OFF →';
       } else {

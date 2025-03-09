@@ -180,9 +180,6 @@ img {
 }
 
 @media (max-width: 600px) {
-  body {
-      font-size: 1em;
-  }
 
   .settings-row {
     width: 300px;                    

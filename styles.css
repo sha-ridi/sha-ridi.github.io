@@ -23,7 +23,15 @@ body {
 
 h1, h2 {
   margin: 10px 0;
-  line-height: 1.3
+  line-height: 1.5
+}
+
+small {
+  font-size: 0.7em;
+  padding: 8px 0 20px 0;
+  color:#47f5ac;
+  letter-spacing: 0.3px;
+  line-height: 1.8;
 }
 
 .menu-list {
@@ -33,7 +41,7 @@ h1, h2 {
 }
 
 .menu-list li {
-  margin: 10px 0;
+  margin: 16px 0;
   cursor: pointer;
   transition: color 0.3s;
 }
@@ -173,7 +181,7 @@ img {
 
 @media (max-width: 600px) {
   body {
-      font-size: 0.8em;
+      font-size: 1em;
   }
 
   .settings-row {
@@ -228,6 +236,10 @@ img {
   .btn-back:active {
     background: #47f5ac;
     color: #1e1e1e;
+  }
+
+  .menu-list li {
+    font-size: 20px;
   }
 }
   

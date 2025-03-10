@@ -46,6 +46,13 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });   
     });
+
+    const textColorPicker = document.getElementById('textColorPicker');
+    textColorPicker.addEventListener('input', (event) => {
+      const newColor = event.target.value;
+      document.documentElement.style.setProperty('--text-color', newColor);
+    });
+
   });  
 
 

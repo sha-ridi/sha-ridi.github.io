@@ -9160,4 +9160,1948 @@
    <value/>
   </custom-field>
  </offer>
+ <offer internal-id="99000100">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150546</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 1</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>686084000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>160.30</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>1-05-01</number>
+  <layout-code>1-05-01</layout-code>
+  <preset-code>1-05-01</preset-code>
+  <price-meter>
+   <value>4280</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69b96cb595110.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a0e6307b4.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bc779494c.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Погодинская улица</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>5</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Погодинская улица</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000101">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150546</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 1</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>707151000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>161.45</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>1-06-01</number>
+  <layout-code>1-06-01</layout-code>
+  <preset-code>1-06-01</preset-code>
+  <price-meter>
+   <value>4380</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69b96cb595110.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a0e6307b4.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bc779494c.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Погодинская улица</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>6</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Погодинская улица</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000102">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150546</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 1</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>726656000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>162.20</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>1-07-01</number>
+  <layout-code>1-07-01</layout-code>
+  <preset-code>1-07-01</preset-code>
+  <price-meter>
+   <value>4480</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69b96cb595110.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a0e6307b4.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bc779494c.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Погодинская улица</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>7</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Погодинская улица</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000103">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150546</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 1</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>850425000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>195.50</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>1-08-01</number>
+  <layout-code>1-08-01</layout-code>
+  <preset-code>1-08-01</preset-code>
+  <price-meter>
+   <value>4350</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69b96cb595110.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a0e6307b4.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bc779494c.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Москва-река</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>3</rooms>
+  <floor>8</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Москва-река</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000104">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150546</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 1</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>890624000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>198.80</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>1-09-01</number>
+  <layout-code>1-09-01</layout-code>
+  <preset-code>1-09-01</preset-code>
+  <price-meter>
+   <value>4480</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69b96cb595110.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a0e6307b4.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bc779494c.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Москва-река</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>3</rooms>
+  <floor>9</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Москва-река</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000105">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150546</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 1</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>634680000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>147.60</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>1-09-02</number>
+  <layout-code>1-09-02</layout-code>
+  <preset-code>1-09-02</preset-code>
+  <price-meter>
+   <value>4300</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69b96cb595110.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a0e6307b4.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bc779494c.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Погодинская улица</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>9</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Погодинская улица</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000106">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>425475000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>139.50</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-02-01</number>
+  <layout-code>2-02-01</layout-code>
+  <preset-code>2-02-01</preset-code>
+  <price-meter>
+   <value>3050</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Погодинская улица</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>2</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Погодинская улица</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000107">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>434400000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>144.80</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-02-02</number>
+  <layout-code>2-02-02</layout-code>
+  <preset-code>2-02-02</preset-code>
+  <price-meter>
+   <value>3000</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Во двор</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>2</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Во двор</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000108">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>558154000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>187.30</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-02-03</number>
+  <layout-code>2-02-03</layout-code>
+  <preset-code>2-02-03</preset-code>
+  <price-meter>
+   <value>2980</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Малый Саввинский пер.</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>3</rooms>
+  <floor>2</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Малый Саввинский пер.</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000109">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>437068000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>139.60</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-03-01</number>
+  <layout-code>2-03-01</layout-code>
+  <preset-code>2-03-01</preset-code>
+  <price-meter>
+   <value>3130</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Погодинская улица</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>3</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Погодинская улица</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000110">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>445060000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>144.50</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-03-02</number>
+  <layout-code>2-03-02</layout-code>
+  <preset-code>2-03-02</preset-code>
+  <price-meter>
+   <value>3080</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Во двор</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>3</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Во двор</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000111">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>570197500</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>186.95</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-03-03</number>
+  <layout-code>2-03-03</layout-code>
+  <preset-code>2-03-03</preset-code>
+  <price-meter>
+   <value>3050</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Малый Саввинский пер.</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>3</rooms>
+  <floor>3</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Малый Саввинский пер.</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000112">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>447360000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>139.80</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-04-01</number>
+  <layout-code>2-04-01</layout-code>
+  <preset-code>2-04-01</preset-code>
+  <price-meter>
+   <value>3200</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Погодинская улица</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>4</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Погодинская улица</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000113">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>454230000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>144.20</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-04-02</number>
+  <layout-code>2-04-02</layout-code>
+  <preset-code>2-04-02</preset-code>
+  <price-meter>
+   <value>3150</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Во двор</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>4</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Во двор</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000114">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>583752000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>187.10</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-04-03</number>
+  <layout-code>2-04-03</layout-code>
+  <preset-code>2-04-03</preset-code>
+  <price-meter>
+   <value>3120</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Малый Саввинский пер.</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>3</rooms>
+  <floor>4</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Малый Саввинский пер.</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000115">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>594533500</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>187.55</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-04-04</number>
+  <layout-code>2-04-04</layout-code>
+  <preset-code>2-04-04</preset-code>
+  <price-meter>
+   <value>3170</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Малый Саввинский пер.</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>3</rooms>
+  <floor>4</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Малый Саввинский пер.</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000116">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>456726000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>140.10</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-05-01</number>
+  <layout-code>2-05-01</layout-code>
+  <preset-code>2-05-01</preset-code>
+  <price-meter>
+   <value>3260</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Погодинская улица</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>5</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Погодинская улица</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000117">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>465612000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>144.60</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-05-02</number>
+  <layout-code>2-05-02</layout-code>
+  <preset-code>2-05-02</preset-code>
+  <price-meter>
+   <value>3220</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Во двор</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>5</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Во двор</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000118">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>594935000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>186.50</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-05-03</number>
+  <layout-code>2-05-03</layout-code>
+  <preset-code>2-05-03</preset-code>
+  <price-meter>
+   <value>3190</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Малый Саввинский пер.</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>3</rooms>
+  <floor>5</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Малый Саввинский пер.</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000119">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>495387000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>144.85</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-06-02</number>
+  <layout-code>2-06-02</layout-code>
+  <preset-code>2-06-02</preset-code>
+  <price-meter>
+   <value>3420</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Во двор</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>6</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Во двор</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000120">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>491568000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>139.65</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-07-01</number>
+  <layout-code>2-07-01</layout-code>
+  <preset-code>2-07-01</preset-code>
+  <price-meter>
+   <value>3520</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Погодинская улица</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>7</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Погодинская улица</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000121">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>510197000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>139.78</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-08-01</number>
+  <layout-code>2-08-01</layout-code>
+  <preset-code>2-08-01</preset-code>
+  <price-meter>
+   <value>3650</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Погодинская улица</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>8</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Погодинская улица</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000122">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>538692000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>139.92</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-09-01</number>
+  <layout-code>2-09-01</layout-code>
+  <preset-code>2-09-01</preset-code>
+  <price-meter>
+   <value>3850</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Погодинская улица</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>2</rooms>
+  <floor>9</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Погодинская улица</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
+ <offer internal-id="99000123">
+  <creation-date>2025-11-28T20:09:42+05:00</creation-date>
+  <last-update-date>2026-05-21T10:00:00+05:00</last-update-date>
+  <new-flat>1</new-flat>
+  <property_type>Объект</property_type>
+  <object>
+   <id>55381</id>
+   <name>Vesper Погодинская</name>
+   <location>
+    <country>Россия</country>
+    <locality-name>Москва</locality-name>
+    <region>Москва</region>
+    <district>Хамовники</district>
+    <address>Погодинская 24</address>
+   </location>
+  </object>
+  <house>
+   <id>150547</id>
+   <floors-total>11</floors-total>
+   <name>Погодинская | Корпус 2</name>
+   <built-year/>
+   <ready-quarter/>
+   <building-state>unfinished</building-state>
+  </house>
+  <price>
+   <value>710980000</value>
+   <currency>RUB</currency>
+  </price>
+  <area>
+   <value>187.10</value>
+   <unit>кв. м</unit>
+  </area>
+  <position-on-floor/>
+  <number>2-09-02</number>
+  <layout-code>2-09-02</layout-code>
+  <preset-code>2-09-02</preset-code>
+  <price-meter>
+   <value>3800</value>
+   <currency>RUB</currency>
+  </price-meter>
+  <image type="plan">https://pb2724.profitbase.ru/uploads/preset/2724/69948bc816fe7.jpg</image>
+  <image type="house">https://pb2724.profitbase.ru/uploads/house/2724/6925a11a36a9c.jpg</image>
+  <image type="facade">https://pb2724.profitbase.ru/uploads/facade/2724/6929bdf865724.jpg</image>
+  <balcony-count/>
+  <loggia-count>1</loggia-count>
+  <separated-bathroom-unit>1</separated-bathroom-unit>
+  <combined-bathroom-unit>2</combined-bathroom-unit>
+  <ceiling_height>3.52</ceiling_height>
+  <window-view>Малый Саввинский пер.</window-view>
+  <studio>0</studio>
+  <open-plan>0</open-plan>
+  <euro-layout>0</euro-layout>
+  <rooms>3</rooms>
+  <floor>9</floor>
+  <building-section>Подъезд 1</building-section>
+  <status_id>2591</status_id>
+  <status>AVAILABLE</status>
+  <status-humanized>Свободно</status-humanized>
+  <facing>Да</facing>
+  <category/>
+  <description/>
+  <owner/>
+  <date-booked/>
+  <booked-until/>
+  <special-offers/>
+  <custom-field>
+   <name>Вид</name>
+   <field>pbcf_5ce3b7bb7f48f</field>
+   <value>Малый Саввинский пер.</value>
+  </custom-field>
+  <custom-field>
+   <name>Терраса</name>
+   <field>pbcf_5ce3b7ec1b150</field>
+   <value/>
+  </custom-field>
+  <custom-field>
+   <name>Пентхаус</name>
+   <field>pbcf_5ced02bcb1b12</field>
+   <value/>
+  </custom-field>
+ </offer>
 </realty-feed>
